@@ -35,6 +35,7 @@ public class ElasticsearchApplicationTests {
     @Test
     public void  test() throws IOException {
         String[] arr = {"1","2"};
+
         EsReturnData byIds = clientUtil.getDocByIds(null,null,"",arr, "qs","name3");
         System.out.println(byIds);
     }
