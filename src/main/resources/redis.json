@@ -1,0 +1,18 @@
+{
+  "properties" : {
+    "userName" : {
+      "type" : "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "beginDate" : {
+      "type" : "date",
+      "format":"yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+    }
+  }
+
+}

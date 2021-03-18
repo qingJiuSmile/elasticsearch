@@ -1,0 +1,10 @@
+server:
+  port: 8062
+
+elasticsearch:
+  security:
+    userName: elastic
+    host: 10.0.96.99
+    password: xm1014
+    port: 9200
+
